@@ -18,7 +18,7 @@ body .global__nav {
   padding-left: 3rem;
   padding-right: 3rem;
 }
-body .global__nav .global__nav--logo {
+body .global__nav--logo {
   color: #335576;
 }
 body .global__nav ul {
@@ -34,7 +34,15 @@ body .global__nav ul li {
   margin-right: 30px;
   color: #000;
 }
-body .global__nav ul li .page__home, body .global__nav ul li .page__hawaii, body .global__nav ul li .page__greece, body .global__nav ul li .page__iceland {
+body .global__nav ul li a:hover {
+  -webkit-text-decoration: overline 3px coral;
+          text-decoration: overline 3px coral;
+  transition: 1s;
+}
+body .global__nav ul li .page__home,
+body .global__nav ul li .page__hawaii,
+body .global__nav ul li .page__greece,
+body .global__nav ul li .page__iceland {
   border-bottom: 2px solid red;
 }
 body .card {
@@ -57,60 +65,68 @@ body .footer {
   padding-bottom: 3rem;
   justify-content: center;
 }
-body .footer p {
-  color: #335576;
-  font-weight: 100;
-  color: #335576;
-  font-size: x-small;
-}
-body .footer .Gfooter {
-  margin-right: 7rem;
-  margin-left: 7rem;
+body .footer .footer__container {
+  margin-right: 7.5rem;
+  margin-left: 7.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
 }
-body .footer .Gfooter h3 {
-  color: #335576;
-}
-body .footer .Gfooter h4 {
-  color: #db7a4e;
-  font-weight: 100;
-  font-size: small;
-}
-body .footer .Gfooter .f-contact {
+body .footer .footer__container .footer__container--contact {
   flex-direction: column;
+  line-height: 1.1;
 }
-body .footer .Gfooter .f-contact h3 {
+body .footer .footer__container .footer__container--contact h3 {
+  margin-bottom: 0%;
   color: #335576;
 }
-body .footer .Gfooter .f-contact h4 {
+body .footer .footer__container .footer__container--contact div h4 {
   color: #db7a4e;
-}
-body .footer .Gfooter .f-contact a {
-  color: #335576;
   font-weight: 100;
+  font-size: 0.6rem;
 }
-body .footer .Gfooter .f-hours h3 {
-  margin-bottom: 0px;
+body .footer .footer__container .footer__container--contact div a {
+  font-weight: 100;
+  color: #335576;
+  font-size: 0.85rem;
 }
-body .footer .Gfooter .f-hours .f-hours_2 {
+body .footer .footer__container .footer__container--hours h3 {
+  margin-bottom: 0%;
+  color: #335576;
+}
+body .footer .footer__container .footer__container--hours .hours {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 19rem;
 }
-body .footer .Gfooter .f-social {
+body .footer .footer__container .footer__container--hours .hours div h4 {
+  color: #db7a4e;
+  font-weight: 100;
+  font-size: 0.6rem;
+}
+body .footer .footer__container .footer__container--hours .hours div p {
+  color: #335576;
+  font-weight: 100;
+  color: #335576;
+  font-size: 0.85rem;
+}
+body .footer .footer__container .social {
+  line-height: 1.3;
   display: flex;
   flex-direction: column;
 }
-body .footer .Gfooter .f-social .icons {
+body .footer .footer__container .social h3 {
+  margin-bottom: 0%;
+  color: #335576;
+}
+body .footer .footer__container .social .icons {
   display: flex;
   justify-content: space-between;
   width: 7.5rem;
 }
-body .footer .Gfooter .f-social .icons .icon_2 {
+body .footer .footer__container .social .icons .icon__img {
   margin-top: 0.93rem;
   height: 1.8rem;
 }/*# sourceMappingURL=global.css.map */

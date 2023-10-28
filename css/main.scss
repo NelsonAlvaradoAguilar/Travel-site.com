@@ -7,12 +7,13 @@
     padding-bottom: 3rem;
     padding-left: 4rem;
     padding-right: 4rem;
+
     .hero__image {
         background-image: url(../assets/Images/hero.png);
         @include hero-settings();
 
         .hero__text {
-            overflow:hidden;
+
             position: relative;
             top: 3rem;
             left: 4.2rem;
@@ -22,7 +23,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            font-size: 1.2rem;
+
 
 
             p {
@@ -30,12 +31,10 @@
             }
 
             .button {
-                @include btn();
-                font-size: small;
-
                 .get__started {
                     color: $sectionColor;
-
+                    @include btn();
+                    font-size: 1rem;
                 }
             }
         }
@@ -79,7 +78,7 @@
             background-image: url(../assets/Images/iceland.jpg);
             background-size: cover;
 
-            h3{
+            h3 {
                 @include Txtcard();
             }
         }
@@ -95,6 +94,19 @@
 
 
 
+    }
+
+}
+
+.get__btn {
+    display: flex;
+    width: 99%;
+    justify-content: space-evenly;
+
+    .get__btn--destination {
+        @include getstated();
+        display: flex;
+        flex-direction: column;
     }
 
 }
