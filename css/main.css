@@ -66,11 +66,11 @@
   width: 100%;
   padding-bottom: 8rem;
 }
-.destinations__container .cards__container .card__hawaii {
+.destinations__container .cards__container .hawaii {
   background-image: url(../assets/Images/hawaii.jpg);
   background-size: cover;
 }
-.destinations__container .cards__container .card__hawaii h3 {
+.destinations__container .cards__container .hawaii h3 {
   margin-top: auto;
   margin-left: auto;
   margin-right: 1.25rem;
