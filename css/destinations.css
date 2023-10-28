@@ -1,0 +1,158 @@
+.hawaii-hero {
+  background-image: url(..//assets/Images/hawaii.jpg);
+}
+
+.greece-hero {
+  background-image: url(../assets/Images/greece.jpg);
+}
+
+.iceland-hero {
+  background-image: url(../assets/Images/iceland.jpg);
+}
+
+.hero-image {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: left 40% bottom 45%;
+  width: 100%;
+  height: 45vw;
+}
+.hero-image .hawaii-page .title,
+.hero-image .iceland-page .title,
+.hero-image .greece-page .title {
+  display: inline-block;
+  font-size: 5rem;
+  margin-top: 0%;
+  font-weight: 700;
+  position: relative;
+  left: 13rem;
+  top: 3rem;
+  height: 5rem;
+  display: inline-block;
+  color: #fefaf5;
+}
+.hero-image .hawaii-page .itinerary-container,
+.hero-image .iceland-page .itinerary-container,
+.hero-image .greece-page .itinerary-container {
+  display: flex;
+  justify-content: center;
+}
+.hero-image .hawaii-page .itinerary-container .friday h3,
+.hero-image .iceland-page .itinerary-container .friday h3,
+.hero-image .greece-page .itinerary-container .friday h3 {
+  color: #000;
+  text-align: center;
+  width: 80%;
+  border-bottom: 2px solid #000;
+  margin-bottom: 0%;
+}
+.hero-image .hawaii-page .itinerary-container .friday ul,
+.hero-image .iceland-page .itinerary-container .friday ul,
+.hero-image .greece-page .itinerary-container .friday ul {
+  width: 100%;
+  margin-top: 0%;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.93rem;
+  padding-left: 0rem;
+}
+.hero-image .hawaii-page .itinerary-container .friday ul li,
+.hero-image .iceland-page .itinerary-container .friday ul li,
+.hero-image .greece-page .itinerary-container .friday ul li {
+  display: flex;
+  background-color: #fefaf5;
+  margin-bottom: 5px;
+  padding: 2px;
+  width: 80%;
+  text-align: center;
+  flex-direction: column;
+  height: 13%;
+  font-weight: 100 bold;
+  justify-content: center;
+}
+.hero-image .hawaii-page .itinerary-container .saturday h3,
+.hero-image .iceland-page .itinerary-container .saturday h3,
+.hero-image .greece-page .itinerary-container .saturday h3 {
+  color: #000;
+  text-align: center;
+  width: 80%;
+  border-bottom: 2px solid #000;
+  margin-bottom: 0%;
+}
+.hero-image .hawaii-page .itinerary-container .saturday ul,
+.hero-image .iceland-page .itinerary-container .saturday ul,
+.hero-image .greece-page .itinerary-container .saturday ul {
+  width: 100%;
+  margin-top: 0%;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.93rem;
+  padding-left: 0rem;
+}
+.hero-image .hawaii-page .itinerary-container .saturday ul li,
+.hero-image .iceland-page .itinerary-container .saturday ul li,
+.hero-image .greece-page .itinerary-container .saturday ul li {
+  display: flex;
+  background-color: #fefaf5;
+  margin-bottom: 5px;
+  padding: 2px;
+  width: 80%;
+  text-align: center;
+  flex-direction: column;
+  height: 13%;
+  font-weight: 100 bold;
+  justify-content: center;
+}
+.hero-image .hawaii-page .itinerary-container .sunday h3,
+.hero-image .iceland-page .itinerary-container .sunday h3,
+.hero-image .greece-page .itinerary-container .sunday h3 {
+  color: #000;
+  text-align: center;
+  width: 80%;
+  border-bottom: 2px solid #000;
+  margin-bottom: 0%;
+}
+.hero-image .hawaii-page .itinerary-container .sunday ul,
+.hero-image .iceland-page .itinerary-container .sunday ul,
+.hero-image .greece-page .itinerary-container .sunday ul {
+  width: 100%;
+  margin-top: 0%;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.93rem;
+  padding-left: 0rem;
+}
+.hero-image .hawaii-page .itinerary-container .sunday ul li,
+.hero-image .iceland-page .itinerary-container .sunday ul li,
+.hero-image .greece-page .itinerary-container .sunday ul li {
+  display: flex;
+  background-color: #fefaf5;
+  margin-bottom: 5px;
+  padding: 2px;
+  width: 80%;
+  text-align: center;
+  flex-direction: column;
+  height: 13%;
+  font-weight: 100 bold;
+  justify-content: center;
+}/*# sourceMappingURL=destinations.css.map */

@@ -1,0 +1,104 @@
+.hero__section {
+  background-size: contain;
+  background-color: #fefaf5;
+  padding-bottom: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.hero__section .hero__image {
+  background-image: url(../assets/Images/hero.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20vw;
+  background-position: left 90% top 0%;
+  box-sizing: content-box;
+}
+.hero__section .hero__image .hero__text {
+  overflow: hidden;
+  position: relative;
+  top: 3rem;
+  left: 4.2rem;
+  width: 25%;
+  height: 60%;
+  color: #335576;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.hero__section .hero__image .hero__text p {
+  font-weight: 100;
+  color: #335576;
+  font-size: x-small;
+}
+.hero__section .hero__image .hero__text .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 7.5rem;
+  border-radius: 15px;
+  background-color: #db7a4e;
+  font-size: small;
+}
+.hero__section .hero__image .hero__text .button .get__started {
+  color: #fefaf5;
+}
+
+.destinations__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.destinations__container .title {
+  color: #335576;
+  display: inline-block;
+  font-size: 2rem;
+  margin-right: auto;
+  padding-left: 4rem;
+}
+.destinations__container .cards__container {
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 8rem;
+}
+.destinations__container .cards__container .card__hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+  background-size: cover;
+}
+.destinations__container .cards__container .card__hawaii h3 {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 1.25rem;
+  color: #ffffff;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+.destinations__container .cards__container .card__iceland {
+  background-image: url(../assets/Images/iceland.jpg);
+  background-size: cover;
+}
+.destinations__container .cards__container .card__iceland h3 {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 1.25rem;
+  color: #ffffff;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+.destinations__container .cards__container .card__greece {
+  background-image: url(../assets/Images/greece.jpg);
+  background-size: cover;
+}
+.destinations__container .cards__container .card__greece h3 {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 1.25rem;
+  color: #ffffff;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,116 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  align-items: center;
+}
+body * a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+body .global__nav {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+body .global__nav .global__nav--logo {
+  color: #335576;
+}
+body .global__nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+body .global__nav ul li {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  color: #000;
+}
+body .global__nav ul li .page__home, body .global__nav ul li .page__hawaii, body .global__nav ul li .page__greece, body .global__nav ul li .page__iceland {
+  border-bottom: 2px solid red;
+}
+body .card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 15rem;
+  height: 22rem;
+  box-sizing: border-box;
+  border-radius: 0.31rem;
+  justify-content: space-evenly;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  margin: 2rem;
+}
+body .footer {
+  background-color: #fefaf5;
+  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  justify-content: center;
+}
+body .footer p {
+  color: #335576;
+  font-weight: 100;
+  color: #335576;
+  font-size: x-small;
+}
+body .footer .Gfooter {
+  margin-right: 7rem;
+  margin-left: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+body .footer .Gfooter h3 {
+  color: #335576;
+}
+body .footer .Gfooter h4 {
+  color: #db7a4e;
+  font-weight: 100;
+  font-size: small;
+}
+body .footer .Gfooter .f-contact {
+  flex-direction: column;
+}
+body .footer .Gfooter .f-contact h3 {
+  color: #335576;
+}
+body .footer .Gfooter .f-contact h4 {
+  color: #db7a4e;
+}
+body .footer .Gfooter .f-contact a {
+  color: #335576;
+  font-weight: 100;
+}
+body .footer .Gfooter .f-hours h3 {
+  margin-bottom: 0px;
+}
+body .footer .Gfooter .f-hours .f-hours_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 19rem;
+}
+body .footer .Gfooter .f-social {
+  display: flex;
+  flex-direction: column;
+}
+body .footer .Gfooter .f-social .icons {
+  display: flex;
+  justify-content: space-between;
+  width: 7.5rem;
+}
+body .footer .Gfooter .f-social .icons .icon_2 {
+  margin-top: 0.93rem;
+  height: 1.8rem;
+}/*# sourceMappingURL=global.css.map */

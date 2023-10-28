@@ -1,0 +1,84 @@
+@import"./global.scss/_parcials/mixin";
+@import"../css/global.scss/_parcials/variable";
+
+//hero images destination//
+
+
+.hawaii-hero {
+    background-image: url(..//assets/Images/hawaii.jpg);
+}
+
+.greece-hero {
+    background-image: url(../assets/Images/greece.jpg);
+}
+
+.iceland-hero {
+    background-image: url(../assets/Images/iceland.jpg);
+}
+
+.hero-image {
+    box-sizing: border-box;
+
+    @include D-hero_settings();
+
+    .hawaii-page,
+    .iceland-page,
+    .greece-page {
+
+        .title {
+            display: inline-block;
+            @include page-title();
+            color: $sectionColor;
+
+        }
+
+        .itinerary-container {
+            display: flex;
+            justify-content: center;
+
+
+
+            .friday {
+                h3 {
+                    @include iteneraryday();
+                    border-bottom: 2px solid #000;
+                    margin-bottom: 0%;
+
+                }
+
+                ul {
+                    @include iteneraryli();
+
+                }
+            }
+
+            .saturday {
+                h3 {
+                    @include iteneraryday();
+                    border-bottom: 2px solid #000;
+                    margin-bottom: 0%;
+
+                }
+
+                ul {
+                  
+                    @include iteneraryli();
+                }
+            }
+
+            .sunday {
+                h3 {
+                    @include iteneraryday();
+                    border-bottom: 2px solid #000;
+                    margin-bottom: 0%;
+
+                }
+
+                ul {
+                    @include iteneraryli();
+
+                }
+            }
+        }
+    }
+}

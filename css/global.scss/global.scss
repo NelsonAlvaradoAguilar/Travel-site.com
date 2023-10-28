@@ -1,0 +1,144 @@
+@import"./_parcials/mixin";
+@import"./_parcials/variable";
+
+body {
+
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    align-items: center;
+
+
+    *a {
+        @include a-stile();
+        color: #000;
+    }
+
+
+
+    .global__nav {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+        .global__nav--logo {
+            color: $colortext;
+
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: auto;
+
+            li {
+                @include li();
+                color: #000;
+
+              
+                .page__home,.page__hawaii,.page__greece,.page__iceland{
+                   border-bottom: 2px solid red; 
+                }
+               
+            }
+        }
+
+
+    }
+
+    .card {
+        @include Gcard();
+    }
+
+    .footer {
+        background-color: $sectionColor;
+        display: flex;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        justify-content: center;
+
+
+        p {
+            color: $colortext;
+            @include paragraph-setting();
+        }
+
+
+        .Gfooter {
+            margin-right: 7rem;
+            margin-left: 7rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100vw;
+
+            h3 {
+                color: $colortext;
+
+            }
+
+            h4 {
+                color: $colortext2;
+                font-weight: 100;
+                font-size: small;
+            }
+
+            .f-contact {
+                flex-direction: column;
+
+                h3 {
+                    color: $colortext;
+                }
+
+                h4 {
+                    color: $colortext2;
+                }
+
+                a {
+                    color: $colortext ;
+                    font-weight: 100;
+                }
+            }
+
+            .f-hours {
+                h3 {
+                    margin-bottom: 0px;
+                }
+
+                .f-hours_2 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 19rem;
+                }
+            }
+
+            .f-social {
+                display: flex;
+                flex-direction: column;
+
+                .icons {
+
+                    display: flex;
+                    justify-content: space-between;
+                    width: 7.5rem;
+
+
+                    .icon_2 {
+                        margin-top: 0.93rem;
+
+                        height: 1.8rem;
+
+                    }
+                }
+            }
+
+        }
+
+
+    }
+}
