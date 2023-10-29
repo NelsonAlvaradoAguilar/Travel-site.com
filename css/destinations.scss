@@ -34,9 +34,10 @@
 
         .itinerary-container {
             display: flex;
+            margin: auto;
             justify-content: center;
-
-
+            width: calc(.90*100%);
+            height: calc(.80*100%);
 
             .friday {
                 h3 {
@@ -61,7 +62,7 @@
                 }
 
                 ul {
-                  
+
                     @include iteneraryli();
                 }
             }
