@@ -8,6 +8,7 @@
     padding-left: 4rem;
     padding-right: 4rem;
 
+
     .hero__image {
         background-image: url(../assets/Images/hero.png);
         @include hero-settings();
@@ -15,16 +16,14 @@
         .hero__text {
 
             position: relative;
-            top: 3rem;
-            left: 4.2rem;
+            top: 1.7rem;
+            left: 4.2rem;         
             width: calc(.25*100%);
-            height: calc(.60*100%);
+            min-height: calc(.15*100%); ;
             color: $colortext;
             display: flex;
             flex-direction: column;
             justify-content: center;
-
-
 
             p {
                 @include paragraph-setting()
@@ -41,13 +40,13 @@
     }
 }
 
+//Destinations pages style//
 .destinations__container {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
-
-
+    background-size: contain;
 
     .title {
         color: $colortext;
@@ -65,7 +64,7 @@
         width: 100%;
         padding-bottom: 8rem;
 
-        .hawaii {
+        &--hawaii {
             background-image: url(../assets/Images/hawaii.jpg);
             background-size: cover;
 
@@ -74,7 +73,7 @@
             }
         }
 
-        .card__iceland {
+        &--iceland {
             background-image: url(../assets/Images/iceland.jpg);
             background-size: cover;
 
@@ -83,7 +82,7 @@
             }
         }
 
-        .card__greece {
+        &--greece {
             background-image: url(../assets/Images/greece.jpg);
             background-size: cover;
 
@@ -98,15 +97,53 @@
 
 }
 
+//button//
 .get__btn {
     display: flex;
-    width: 99%;
+    width: 100%;
     justify-content: space-evenly;
+}
 
-    .get__btn--destination {
-        @include getstated();
+//form//
+.form {
+   border-top: 1px solid rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+
+    h3 {
+
+        @include info--titles();
+    }
+
+    .container {
         display: flex;
         flex-direction: column;
+
+        .container__sub {
+           margin: 1rem;
+        
+
+            .info--title {
+                @include info--titles();
+            }
+
+            .subject {
+                height: 100px;
+                width: 100%;
+            }
+
+            .info--subtitles {
+               
+                @include info--titles();
+                font-size: 1.3rem;
+            }
+
+
+        }
     }
+
 
 }

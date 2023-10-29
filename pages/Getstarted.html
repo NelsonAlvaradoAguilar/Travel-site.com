@@ -6,43 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/global.scss/global.css">
 </head>
 
 <body>
-    <section class="get__btn">
-        <div class="get__btn--destination">
-            <h2>Hawaii</h2>
+
+    <header>
+
+        <nav class="global__nav">
+            <a class="global__nav--logo" href="../index.html">Travel site</a>
             <ul>
-                <li class="subtitle">NAME</li>
-                <span class="text">...</span>
-                <li class="subtitle">PHONE NUMBER</li>
-                <span class="text">...</span>
-                <li class="subtitle">EMAIL</li>
-                <span class="text">...</span>
+
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="hawaii.html">Hawaii</a></li>
+                <li><a href="iceland.html">Iceland</a></li>
+                <li><a class="page__greece" href="greece.html">Greece</a></li>
             </ul>
+        </nav>
+    </header>
+
+    <section class="form">
+        <h3>Contact Form</h3>
+
+        <div>
+            <form class="container" action="../index.html">
+                <div class="container__sub">
+                    <label class="info--subtitles" for="fname">First Name</label>
+                    <input type="text" name="firstname" placeholder="Your name..">
+
+                    <label class="info--subtitles" for="lname">Last Name</label>
+                    <input type="text" name="lastname" placeholder="Your last name..">
+                </div>
+
+                <div class="container__sub">
+                    <label class="info--subtitles" for="destinations">Destinations</label>
+                    <select class="destinations" name="destinations">
+                        <option value="hawaii">Hawaii</option>
+                        <option value="iceland">Iceland</option>
+                        <option value="greece">Greece</option>
+
+                    </select>
+                </div>
+
+                <div class="container__sub">
+                    <label class="info--subtitles" for="subject">Subject</label>
+                    <textarea class="subject" name="subject" placeholder="Write something.."></textarea>
+
+                    <input class="info--subtitles" type="submit" value="Submit">
+                </div>
+            </form>
         </div>
-        <div class="get__btn--destination">
-            <h2>Iceland</h2>
-            <ul>
-                <li class="subtitle">NAME</li>
-                <span class="text">...</span>
-                <li class="subtitle">PHONE NUMBER</li>
-                <span class="text">...</span>
-                <li class="subtitle">EMAIL</li>
-                <span class="text">...</span>
-            </ul>
-        </div>
-        <div class="get__btn--destination">
-            <h2>Greece</h2>
-            <ul>
-                <li class="subtitle">NAME</li>
-                <span class="text">...</span>
-                <li class="subtitle">PHONE NUMBER</li>
-                <span class="text">...</span>
-                <li class="subtitle">EMAIL</li>
-                <span class="text">...</span>
-            </ul>
-        </div>
+    </section>
+
+    <section class="footer">
+        <footer class="footer__container">
+            <div class="footer__container--contact">
+                <H3>Contact</H3>
+                <div>
+                    <h4>EMAIL</h4>
+                    <a href="mailto:info@travelsite.com">info@travelsite.com</a>
+                </div>
+            </div>
+
+            <div class="footer__container--hours">
+                <h3>Hours</h3>
+
+                <div class="hours">
+
+                    <div>
+                        <h4>MONDAY - FRIDAY</h4>
+                        <p>9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div>
+                        <h4>SATURDAY</h4>
+                        <p>10:00 AM - 4:00 PM</p>
+                    </div>
+                    <div>
+                        <h4>SUNDAY</h4>
+                        <p>Closed</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="social">
+                <h3>Social</h3>
+                <div class="icons">
+                    <img class="icons__img" src="../assets/Icons/icon-instagram.png" alt="insta-icon">
+                    <img class="icons__img" src="../assets/Icons/icon-facebook.png" alt="face-icon">
+                    <img class="icons__img" src="../assets/Icons/icon-twitter.png" alt="twt-icon">
+                </div>
+            </div>
+
+        </footer>
     </section>
 
 

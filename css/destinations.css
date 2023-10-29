@@ -37,7 +37,10 @@
 .hero-image .iceland-page .itinerary-container,
 .hero-image .greece-page .itinerary-container {
   display: flex;
+  margin: auto;
   justify-content: center;
+  width: 90%;
+  height: 80%;
 }
 .hero-image .hawaii-page .itinerary-container .friday h3,
 .hero-image .iceland-page .itinerary-container .friday h3,
