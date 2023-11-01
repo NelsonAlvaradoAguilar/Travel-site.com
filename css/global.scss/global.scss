@@ -16,6 +16,8 @@ body {
     }
     
     .global__nav {
+        position: fixed;
+        width: 98%;
         background-color: #ffffff;
         display: flex;
         flex-direction: row;

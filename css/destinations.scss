@@ -39,7 +39,7 @@
             width: calc(.90*100%);
             height: calc(.80*100%);
 
-            .friday {
+            .friday {display: flex;
                 h3 {
                     @include iteneraryday();
                     border-bottom: 2px solid #000;

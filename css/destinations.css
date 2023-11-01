@@ -42,6 +42,11 @@
   width: 90%;
   height: 80%;
 }
+.hero-image .hawaii-page .itinerary-container .friday,
+.hero-image .iceland-page .itinerary-container .friday,
+.hero-image .greece-page .itinerary-container .friday {
+  display: flex;
+}
 .hero-image .hawaii-page .itinerary-container .friday h3,
 .hero-image .iceland-page .itinerary-container .friday h3,
 .hero-image .greece-page .itinerary-container .friday h3 {
@@ -64,7 +69,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0.93rem;
+  margin: 1rem;
   padding-left: 0rem;
 }
 .hero-image .hawaii-page .itinerary-container .friday ul li,
@@ -103,7 +108,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0.93rem;
+  margin: 1rem;
   padding-left: 0rem;
 }
 .hero-image .hawaii-page .itinerary-container .saturday ul li,
@@ -142,7 +147,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0.93rem;
+  margin: 1rem;
   padding-left: 0rem;
 }
 .hero-image .hawaii-page .itinerary-container .sunday ul li,
